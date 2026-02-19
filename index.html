@@ -94,6 +94,16 @@
       }
       .btn-rel {
         background-color: #af52de;
+        flex-direction: column;
+        padding: 12px;
+        border-radius: 14px;
+      }
+      .btn-rel img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 10px;
+        background: #f0f0f0;
       }
     </style>
   </head>
@@ -127,8 +137,12 @@
         Uses a plain <code>&lt;a rel="ar"&gt;</code> link pointing to a <code>.reality</code> file. Safari on iOS opens AR Quick Look directly — no JavaScript needed.
       </p>
       <div class="buttons">
-        <a class="btn-rel" rel="ar" href="mask.reality">Mask</a>
-        <a class="btn-rel" rel="ar" href="Bowling.reality">Bowling</a>
+        <a class="btn-rel" rel="ar" href="mask.reality">
+          <img src="mask-poster.png" alt="Mask">
+        </a>
+        <a class="btn-rel" rel="ar" href="Bowling.reality">
+          <img src="mask-poster.png" alt="Bowling">
+        </a>
       </div>
     </div>
   </body>
