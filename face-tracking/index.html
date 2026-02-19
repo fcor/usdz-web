@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR Quick Look</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      .buttons {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .buttons a {
+        display: inline-block;
+        padding: 16px 32px;
+        background-color: #007aff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        transition: background-color 0.2s;
+      }
+      .buttons a:active {
+        background-color: #005ecb;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AR Experiences</h1>
+    <div class="buttons">
+      <a href="mask.reality">Mask</a>
+      <a href="Bowling.reality">Bowling</a>
+    </div>
+  </body>
+</html>
